@@ -16,6 +16,7 @@ namespace ConsoleApplication2
     Florist kwiaciarnia = new Florist();
 
     // Przychodzi klient janek. Ma 200 zł
+    Console.WriteLine("JANEK I 200ZŁ");
     Customer janek = new Customer("Janek", 200);
 
     // Bierze różne kwiaty: 5 róż, 5 piwonii, 3 frezje, 3 bzy
@@ -58,6 +59,7 @@ namespace ConsoleApplication2
 
     // Teraz przychodzi Stefan
     // ma tylko 60 zł
+    Console.WriteLine("Stefan i 60zł");
     Customer stefan = new Customer("Stefan", 60);
 
     // ąle nabrał kwiatów nieco za dużo jak na tę sumę
